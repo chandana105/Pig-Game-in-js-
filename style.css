@@ -44,15 +44,17 @@ body {
       rgba(62, 20, 20, 0.4),
       rgba(62, 20, 20, 0.4)
     ),
-    url(back.jpg);
+    url(Dice-Game.jpg);
   background-size: cover;
   background-position: center;
   font-family: Lato;
-  font-weight: 300;
+  font-weight: 700;
   position: relative;
   height: 100vh;
   color: #555;
 }
+
+
 
 .wrapper {
   width: 1000px;
@@ -82,7 +84,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 400;
   margin-top: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -91,8 +93,8 @@ body {
 .player-score {
   text-align: center;
   font-size: 80px;
-  font-weight: 100;
-  color: #eb4d4d;
+  font-weight: 400;
+  color: #008b495f;
   margin-bottom: 130px;
 }
 
@@ -100,20 +102,22 @@ body {
   background-color: #f7f7f7;
 }
 .active .player-name {
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .active .player-name::after {
   content: '\2022';
   font-size: 47px;
   position: absolute;
-  color: #eb4d4d;
+  color: #008b495f;
   top: -7px;
   right: 10px;
 }
 
 .player-current-box {
-  background-color: #eb4d4d;
+  /* background-color: #eb4d4d; */
+  background-color: #008b495f;
+
   color: #fff;
   width: 40%;
   margin: 0 auto;
@@ -144,12 +148,12 @@ button {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: 700;
   transition: background-color 0.3s, color 0.3s;
 }
 
 button:hover {
-  font-weight: 600;
+  font-weight: 700;
 }
 button:hover i {
   margin-right: 20px;
@@ -160,7 +164,7 @@ button:focus {
 }
 
 i {
-  color: #eb4d4d;
+  color: #008b495f;
   display: inline-block;
   margin-right: 15px;
   font-size: 32px;
@@ -193,6 +197,6 @@ i {
   background-color: #f7f7f7;
 }
 .winner .player-name {
-  font-weight: 300;
-  color: #eb4d4d;
+  font-weight: 800;
+  color: #008b495f;
 }
